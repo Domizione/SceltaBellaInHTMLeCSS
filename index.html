@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scegli il tuo destino</title>
+    <style>
+        /* Reset per eliminare margini e padding di default */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body del sito */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* sfondo gradiente */
+            color: #fff;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Header */
+        h1 {
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            letter-spacing: 2px;
+        }
+
+        /* Testo sottotitolo */
+        a {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #f39c12; /* Cambia colore al passaggio del mouse */
+        }
+
+        /* Stili dei pulsanti */
+        button {
+            background-color: #3498db;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1.2rem;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+            margin: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        button:hover {
+            background-color: #2980b9; /* Cambia colore quando il mouse è sopra */
+            transform: scale(1.1); /* Aumenta la dimensione del pulsante al passaggio del mouse */
+        }
+
+        /* Pulsante con effetto di sfocatura */
+        button:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
+        }
+
+        /* Allineamento del contenuto */
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Scegli il tuo destino</h1>
+        <a>A te la scelta</a>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+            <button>"sium (cringe)"</button>
+        </a>
+        <a href="https://chromewebstore.google.com/detail/antirickroll/mpnckpmpddjcgkpjkmmakcamjhceadne">
+            <button>"Letsgoski (10 volti meglio)"</button>
+        </a>
+    </div>
+</body>
+</html>
